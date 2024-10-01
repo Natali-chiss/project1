@@ -46,6 +46,7 @@ HEAD — последний коммит.
 
 ### Жизненный цикл проекта (его статусов):
 
+
 ```mermaid
 graph LR;
 untracked --"git add" --> staged (+ tracked);
