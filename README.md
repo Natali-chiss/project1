@@ -49,7 +49,7 @@ HEAD — последний коммит.
 
 ```mermaid
 graph LR;
-untracked --"git add" --> staged (+ tracked);
+untracked --"git add" --> staged;
 staged -- "git commit" --> tracked;
 ```
 
